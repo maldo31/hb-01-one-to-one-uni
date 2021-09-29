@@ -28,7 +28,7 @@ public class DeleteInstructoDetailDemo {
             int theId = 3;
             InstructorDetail tempInstructorDetial = session.get(InstructorDetail.class,theId);
 
-            //print instructor detal
+            //print instructor detail
 
             System.out.println("tempInstructorDetail: " + tempInstructorDetial);
 
